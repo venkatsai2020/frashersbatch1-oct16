@@ -1,0 +1,14 @@
+table{
+    border: 1px solid rgb(21, 197, 21);
+    margin: 1px;
+}
+div{
+    border: 1px inset black;
+}
+th{
+    background-color: rgb(11, 138, 11);
+    color:white;
+}
+td{
+    border: 1px solid rgb(35, 175, 35);
+}

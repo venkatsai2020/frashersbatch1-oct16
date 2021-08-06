@@ -1,0 +1,15 @@
+.a{
+    list-style-type: upper-alpha;
+}
+.b{
+    list-style-type: lower-alpha ;
+}
+.c{
+    list-style-type: upper-roman;
+}
+.d{
+    list-style-type: lower-roman;
+}
+p{
+    font-weight: bold;
+}

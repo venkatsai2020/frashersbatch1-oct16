@@ -1,0 +1,18 @@
+P{
+    font-weight: bold;
+}
+table{
+    border: 1px inset rgb(253, 253, 253);
+    border-collapse: collapse;
+}
+tr td{
+    border: 2px inset rgb(253, 253, 253);
+    border-collapse: collapse;
+    padding:2px;
+}
+.a{
+border:none;
+}
+.a tr td{
+border:none;
+}

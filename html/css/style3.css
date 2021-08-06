@@ -1,0 +1,10 @@
+table{
+border:1px inset rgb(252, 251, 251);
+    border-collapse: collapse;
+}
+P{
+    font-weight: bold;
+}
+tr td{
+    border: 3px inset rgb(253, 253, 253);
+}

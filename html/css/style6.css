@@ -1,0 +1,12 @@
+#username{
+   border: 3px inset rgb(236, 230, 236);
+   width:10%;
+}
+#password{
+    border:3px inset rgb(236, 230, 236);
+    width:10%;
+}
+body{
+    margin-top:100px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+table{
+    border:3px inset rgb(194, 149, 149);
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+td{
+ border:3px inset rgb(184, 176, 176);
+ border-collapse: collapse;
+}
+.a td{
+    background-color: rgb(52, 214, 214);
+}
+.b td:nth-child(odd){
+    background-color: rgb(163, 150, 154);
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.b td:nth-child(even){
+    background-color: rgb(240, 223, 223);
+    padding-top: 30px;
+    padding-right: 20px;
+}
+ 
+ 

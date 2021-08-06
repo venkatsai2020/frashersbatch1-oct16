@@ -1,0 +1,21 @@
+a{
+    color:red;
+}
+div{
+    background-color: rgb(161, 245, 236);
+    border:1px solid #000000;
+}
+a:hover{
+    color:green;
+    text-decoration: none;
+}
+a:visited{
+    color:violet;
+    text-decoration: none;
+}
+a:active{
+    color:orange;
+}
+a:link{
+    color:palegoldenrod;
+}

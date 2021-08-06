@@ -1,0 +1,24 @@
+h1{
+    background-color: rgb(73, 86, 199);
+    border-collapse: collapse;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.a {
+background-color: lightcyan;
+border-collapse: collapse;
+margin: 0px;
+padding: 0px;
+}
+.a .c{
+background-color: lightsteelblue;
+margin: 0px;
+padding: 0px;
+line-height: 40px;
+}
+.a .b{
+    background-color: lightsteelblue;
+    padding: 0px;
+    margin: 0px;
+    line-height:40px;
+    }

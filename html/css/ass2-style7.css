@@ -1,0 +1,10 @@
+.a{
+    border: 2px dotted greenyellow;
+}
+.b{
+    margin:2px;
+    border: 1px solid red;
+}
+span{
+    font-weight: bold;
+}
