@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(186, 209, 214);
+}
+.a{
+    background-color: rgb(173, 199, 199);
+    margin: 20px;
+}
+.a1{
+    position: relative;
+    top:10px
+}
+.aa{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aa span{
+    display: block;
+    font-weight: 65;
+    font-size: x-large;
+    margin: 10px auto;
+}
+.aa .aaa{
+    font-weight: 700;
+}
+.b{
+    margin: 20px;
+    border: 1px solid rgb(173, 162, 162);
+    border-radius: 10px;
+}
+.b p{
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.c{
+    margin: 20px;
+    text-align: center;
+    border: 1px solid rgb(173, 162, 162);
+    border-radius: 10px;
+    position: relative;
+}
+.c img{
+    padding: 50px;
+}
+.cc{
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+    background-color: rgb(173, 162, 162);
+    width: 100%;
+    border-radius: 10px;
+}
+.cc p{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d{
+    margin: 20px;
+    margin-top: 40px;
+    position: relative;
+    }
+.d main{
+    padding: 10px;
+}
+.d span{
+    font-weight: bold;
+}
+.d p {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.d a{
+    text-decoration: none;
+}
+.e p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.e span{
+    color: royalblue;
+}

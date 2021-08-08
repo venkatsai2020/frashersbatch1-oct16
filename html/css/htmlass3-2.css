@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(108, 142, 235,0.8);
+}
+.a{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.a h2{
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 35px;
+    margin: 10px;
+}
+.a h4{
+    color: white;
+    font-family: Tahoma;
+    margin: 10px;
+}
+.b{
+    margin:  50px 30%;
+    background-color: rgba(57, 102, 224, 0.5);
+    line-height: 100%;
+    color: white;
+}
+.b .name{
+    display: block;
+    margin-left: 40px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+    padding-top: 5%;
+}
+.b #name{
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b .email{
+    display: block;
+    margin-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+}
+.b #email{
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b .age{
+    display: block;
+    margin-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+}
+.b #age{
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b .role{
+    display: block;
+    margin-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+}
+.b #role{
+    width: 83%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b .favorite{
+    display: block;
+    margin-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+}
+.b #favorite{
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b .comment{
+    display: block;
+    margin-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-size: 125%;
+    font-weight: 200;
+}
+.b #comment{
+    max-width: 75%;
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.b #button{
+    width: 83%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(52, 167, 52);
+    color: white;
+}

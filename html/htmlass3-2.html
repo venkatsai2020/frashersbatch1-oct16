@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css\htmlass3-2.css">
+</head>
+<body>
+    <div class="a">
+        <h2>FreeCode Camp Survey Form</h2>
+        <h4>Thank you for taking the time to help us improve the platform</h4>    
+    </div>
+    <div class="b">
+        <form>
+            <label for="name" class="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name..." required><br>
+            <label for="email" class="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Email..." required>
+            <label for="age" class="age">Age(optional)</label><br>
+            <input type="text" id="age" name="age" placeholder="Age"><br>
+            <label for="role" class="role">Which option best describes your current role?</label><br>
+            <select id="role" name="role" required>
+                <option disabled selected value>Select Current Role</option>
+                <option value="">Student</option>
+                <option value="">FullTime JOb</option>
+                <option value="">PartTime JOb</option>
+            </select><br>
+            <label for="favorite" class="favorite">What is your favorite feature of freeCodeCamp?</label><br>
+            <input type="text" id="favorite" name="favorite" placeholder="Favorite Feature..">
+            <br>
+            <label for="comment" class="comment">Any comments or suggestions?</label><br>
+            <textarea id="comment" cols="10" placeholder="Enter your comment...."></textarea>
+            <br>
+            <input type="button" id="button" value="Submit"><br>
+        </form>
+    </div>
+</body>
+</html>
