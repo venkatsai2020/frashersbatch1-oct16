@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(186, 225, 248);
+}
+.a{
+    position: relative;
+}
+.b{
+    position: absolute;
+    left: 79%;
+}
+#text_area{
+    max-width: 90%;
+    max-height: 90px;
+}
+.form{
+    padding-top: 2%;
+    margin-left: 2%;
+}
+.e{
+    padding-top: 0.5%;
+}
+.f{
+ margin-top: 2px;
+ height: 20px;
+}
+.f p{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.g{
+    margin-top: 8px;
+}
+.g #topping_1{
+    margin-right: 2%;
+}
+.g #topping_2{
+    margin-right: 2%;
+}
+.g #topping_3{
+    margin-right: 2%;
+}
+.g #topping_4{
+    margin-right: 2%;
+}
+.g #topping_5{
+    margin-right: 2%;
+}
+.g #topping_6{
+    margin-right: 2%;
+}
+.g #topping_7{
+    margin-right: 2%;
+}
+.h p{
+    display: inline-block;
+    font-weight: bold;
+}
+.h .get{
+    margin-left: 1%;
+}
+.h #get{
+    margin-right: 2%;
+}
+.h #get_1{
+    margin-right: 2%;
+}
+.i .tip{
+    font-weight: bold;
+}
+.i #tip{
+    max-width: 7%;
+}
+.i{
+    margin-bottom: 1%;
+}
+.hr{
+    margin-right: 40%;
+}
+.j{
+    height: 20px;
+}
+.j p{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.k .address{
+    max-width: 40%;
+    max-height: 100px;
+}
+@media screen and (max-width:1300px){
+    .b{
+        position: absolute;
+        left: 70%;
+
+}
+@media screen and (max-width:1200px){
+    .b{
+        position: absolute;
+        left: 65%;
+
+}
+@media screen and (max-width:950px){
+    .b{
+        position: absolute;
+        left: 55%;
+
+}
+@media screen and (max-width:750px){
+    .b{
+        display: none;
+
+}
