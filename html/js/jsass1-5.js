@@ -15,6 +15,7 @@ var leapYear=function()
     {
         value=value+4;
         newArray[i]=value;
+        document.write(value);
+        document.write('<br>');
     }
-    document.getElementById("a").innerHTML="Next 20 LeapYears : ["+newArray+"]";
 }

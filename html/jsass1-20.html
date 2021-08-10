@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order pizza!</title>
+        <link rel="stylesheet" href="css\jsass1-20.css">
+    </head>
+    <body>
+        <div class="a">
+            <div class="b">
+                <textarea id="text_area" rows="5" cols="45">This TEXTAREA provides context-senesitive help.Click on any inout field or use the TAB key to get more information about the input field. </textarea>
+            </div>
+            <div class="c">
+                <form class="form">
+                    <div class="d">
+                    <label for="name" class="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    </div>
+                    <div class="e">
+                    <label for="email" class="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    </div>
+                    <div class="f">
+                        <p>Toppings:</p><br>
+                    </div>
+                    <div class="g">
+                        <label for="topping_1" class="toppings">Extra Cheese:</label>
+                        <input type="checkbox" name="toppings" id="topping_1" value="Extra Chese">
+                        <label for="topping_2" class="toppings">Pepperoni:</label>
+                        <input type="checkbox" name="toppings" id="topping_2" value="Pepperoni">
+                        <label for="topping_3" class="toppings">Olives:</label>
+                        <input type="checkbox" name="toppings" id="topping_3" value="Olives">
+                        <label for="topping_4" class="toppings">Pepper:</label>
+                        <input type="checkbox" name="toppings" id="topping_4" value="Pepper">
+                        <label for="topping_5" class="toppings">Bacon:</label>
+                        <input type="checkbox" name="toppings" id="topping_5" value="Bacon">
+                        <label for="topping_6" class="toppings">Tomatoes:</label>
+                        <input type="checkbox" name="toppings" id="topping_6" value="Tomatoes">
+                        <label for="topping_7" class="toppings">Mushrooms:</label>
+                        <input type="checkbox" name="toppings" id="topping_7" value="Mushrooms">
+                    </div>
+                    <div class="h">
+                        <p>How do you want to your pizza!</p>
+                        <label for="get" class="get">Delivery</label>
+                        <input type="radio" name="get" id="get" value="Delivery">
+                        <label for="get_1">Pickup</label>
+                        <input type="radio" name="get" id="get_1" value="Pickup">
+                    </div>
+                    <div class="i">
+                        <label for="tip" class="tip">Tip?</label>
+                        <select id="tip">
+                            <option selected disabled value>tip..</option>
+                            <option>5%</option>
+                            <option>10%</option>
+                            <option>15%</option>
+                            <option>none</option>
+                        </select>
+                    </div>
+                    <hr class="hr">
+                    <div class="j">
+                        <p>Address</p><br>
+                    </div>
+                    <div class="k">
+                        <textarea class="address" placeholder="Enter the Address...." rows="40" cols="50"></textarea>
+                    </div>
+                    <div class="l">
+                        <input type="submit" value="Submit" id="submit">
+                        <input type="button" value="Reset" id="reset">
+                        <input type="button" value="Show Summary" id="summary">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
