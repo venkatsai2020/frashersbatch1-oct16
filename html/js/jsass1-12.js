@@ -1,0 +1,1 @@
+var s=window.prompt("enter the string");
