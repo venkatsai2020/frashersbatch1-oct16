@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-var s=window.prompt("enter the string");
-=======
 var s=window.prompt("Enter the Data");
 var s1=s.split("a");
 var len=s1.length;
@@ -43,4 +40,3 @@ if(len2==0)
 document.write('""');
 else
 document.write(newArray[count]);
->>>>>>> 3d9ace071bdb0f0de4eda19cae0c950b4d9baeaf

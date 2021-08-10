@@ -6,7 +6,7 @@ body{
 }
 .b{
     position: absolute;
-    left: 79%;
+    left: 76%;
 }
 #text_area{
     max-width: 90%;
@@ -91,22 +91,22 @@ body{
     .b{
         position: absolute;
         left: 70%;
-
+    }
 }
 @media screen and (max-width:1200px){
     .b{
         position: absolute;
         left: 65%;
-
+    }
 }
 @media screen and (max-width:950px){
     .b{
         position: absolute;
         left: 55%;
-
+    }
 }
 @media screen and (max-width:750px){
     .b{
         display: none;
-
+    }
 }

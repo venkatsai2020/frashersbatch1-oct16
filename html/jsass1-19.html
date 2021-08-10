@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="css\jsass1-19.css">
+    </head>
+    <body>
+        <div class="div">
+            <table class="table">
+                <tr class="a">
+                    <td colspan="4" id="display"></td>
+                </tr>
+                <tr class="b">
+                    <td colspan="3"><button onclick="clear1()">AC</button></td>
+                    <td><button onclick="validate(this)" value="/">/</button></td>
+                </tr>
+                <tr class="b">
+                    <td><button onclick="validate(this)" value="7">7</button></td>
+                    <td><button onclick="validate(this)" value="8">8</button></td>
+                    <td><button onclick="validate(this)" value="9">9</button></td>
+                    <td><button onclick="validate(this)" value="*">*</button></td>
+                </tr>
+                <tr class="b">
+                    <td><button onclick="validate(this)" value="4">4</button></td>
+                    <td><button onclick="validate(this)" value="5">5</button></td>
+                    <td><button onclick="validate(this)" value="6">6</button></td>
+                    <td><button onclick="validate(this)" value="-">-</button></td>
+                </tr>
+                <tr class="b">
+                    <td><button onclick="validate(this)" value="1">1</button></td>
+                    <td><button onclick="validate(this)" value="2">2</button></td>
+                    <td><button onclick="validate(this)" value="3">3</button></td>
+                    <td><button onclick="validate(this)" value="+">+</button></td>
+                </tr>
+                <tr class="b">
+                    <td colspan="2"><button onclick="validate(this)" value="0">0</button></td>
+                    <td><button onclick="validate(this)" value=".">.</button></td>
+                    <td><button onclick="calculate()">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="js\jsass1-19.js"></script>
+    </body>
+</html>
