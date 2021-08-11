@@ -13,7 +13,7 @@
                 <form class="form">
                     <div class="d">
                     <label for="name" class="name">Name:</label>
-                    <input type="text" id="name" onfocus="help(this)" onblur="help1()" name="name" placeholder="Name.." value="" required><br>
+                    <input type="text" id="name" onfocus="help(this)" onblur="help1()" name="name" placeholder="Name.." value="" required ><br>
                     </div>
                     <div class="e">
                     <label for="email" class="email">Email:</label>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="i">
                         <label for="tip" class="tip">Tip?</label>
-                        <select id="tip">
+                        <select id="tip" onfocus="help(this)" onblur="help1()" name="tip">
                             <option value="tip_1" selected disabled value>tip..</option>
                             <option value="15%">15%</option>
                             <option value="20%">20%</option>
@@ -63,9 +63,9 @@
                         <textarea class="address"  id="address" placeholder="Enter the Address...." onfocus="help(this)" onblur="help1()"  name="address" value="address" rows="40" cols="50" required></textarea>
                     </div>
                     <div class="l">
-                        <input type="submit" value="Submit" id="submit">
+                        <input type="button" onclick="submit_1()" value="Submit" id="submit">
                         <input type="button" onclick="clear1()" value="Reset" id="reset">
-                        <input type="button" value="Show Summary" id="summary">
+                        <input type="button" onclik="summary1()" value="Show Summary" disabled id="summary">
                     </div>
                 </form>
             </div>
