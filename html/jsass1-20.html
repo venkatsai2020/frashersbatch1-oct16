@@ -13,11 +13,11 @@
                 <form class="form">
                     <div class="d">
                     <label for="name" class="name">Name:</label>
-                    <input type="text" id="name" name="name"><br>
+                    <input type="text" id="name" onfocus="help(this)" onblur="help1()" name="name" placeholder="Name.." value="" required><br>
                     </div>
                     <div class="e">
                     <label for="email" class="email">Email:</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" onfocus="help(this)" onblur="help1()" placeholder="Email.." value="" required>
                     </div>
                     <div class="f">
                         <p>Toppings:</p><br>
@@ -48,11 +48,11 @@
                     <div class="i">
                         <label for="tip" class="tip">Tip?</label>
                         <select id="tip">
-                            <option selected disabled value>tip..</option>
-                            <option>15%</option>
-                            <option>20%</option>
-                            <option>25%</option>
-                            <option>none</option>
+                            <option value="tip_1" selected disabled value>tip..</option>
+                            <option value="15%">15%</option>
+                            <option value="20%">20%</option>
+                            <option value="25%">25%</option>
+                            <option value="none">none</option>
                         </select>
                     </div>
                     <hr class="hr">
@@ -60,15 +60,16 @@
                         <p>Address</p><br>
                     </div>
                     <div class="k">
-                        <textarea class="address" placeholder="Enter the Address...." rows="40" cols="50"></textarea>
+                        <textarea class="address"  id="address" placeholder="Enter the Address...." onfocus="help(this)" onblur="help1()"  name="address" value="address" rows="40" cols="50" required></textarea>
                     </div>
                     <div class="l">
                         <input type="submit" value="Submit" id="submit">
-                        <input type="button" value="Reset" id="reset">
+                        <input type="button" onclick="clear1()" value="Reset" id="reset">
                         <input type="button" value="Show Summary" id="summary">
                     </div>
                 </form>
             </div>
         </div>
+        <script  src="js\jsass1-20.js"></script>
     </body>
 </html>
