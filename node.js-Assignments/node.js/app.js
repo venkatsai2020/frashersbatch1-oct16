@@ -1,0 +1,10 @@
+var moment=require('moment');
+var div=require('./operations/div');
+var sum=require('./operations/sum');
+var sub=require('./operations/sub');
+var mul=require('./operations/mul');
+console.log("Today is : "+moment().format("dddd, DD MMMM YYYY, hh:mm:ss"));
+div.div();
+sum.sum();
+sub.sub();
+mul.mul();

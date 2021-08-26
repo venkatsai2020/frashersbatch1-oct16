@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "esWorkSpace",
+			"path": "..\\esWorkSpace"
+		},
+		{
+			"name": "es2015",
+			"path": "..\\es2015"
+		}
+	],
+	"settings": {}
+}
